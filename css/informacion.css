@@ -1,0 +1,29 @@
+.informacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  padding: 80px;
+  width: 100%;
+}
+
+.subtitulo-informacion {
+  margin: 0;
+  font-size: 32px;
+}
+
+.parrafo-informacion {
+  margin: 0;
+  max-width: 700px;
+}
+
+@media (max-width: 768px) {
+  .informacion {
+    padding: 30px 20px;
+  }
+
+  .SubtituloInformacion {
+    font-size: 26px;
+  }
+}
